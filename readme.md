@@ -12,8 +12,7 @@ A plasmoid widget that integrates with your cli vpn solution to provides a statu
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+KDE Plasma is required to run this program
 
 ### Installing
 
