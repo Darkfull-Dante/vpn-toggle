@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=VPN status and toggle
+Comment=Display the status of VPN connection in system tray
+
+Type=Service
+Icon=./content/icons/nordvpn.svg
+X-KDE-ServiceTypes=Plasma/Applet
+
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+
+X-KDE-PluginInfo-Author=Felx Cusson
+X-KDE-PluginInfo-Email=felixcusson@gmail.com
+X-KDE-PluginInfo-Name=com.darkfulldante.plasma.vpn-toggle
+X-KDE-PluginInfo-Version=1
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=System Information

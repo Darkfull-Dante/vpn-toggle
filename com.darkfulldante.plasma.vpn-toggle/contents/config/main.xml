@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+
+    <kcfgfile name=""/>
+
+    <group name="General">
+        <entry name="serviceText" type="String">
+            <default>hotspotshield</default>
+            <label>the name of the bin to call the vpn service (must be the same used in terminal)</label>
+        </entry>
+        <entry name="statusText" type="String">
+            <default>status</default>
+            <label>the command used to get status of the vpn (ex: hotspotshield status)</label>
+        </entry>
+        <entry name="connectText" type="String">
+            <default>connect</default>
+            <label>the command used to get status of the vpn (ex: hotspotshield connect)</label>
+        </entry>
+        <entry name="disconnectText" type="String">
+            <default>disconnect</default>
+            <label>the command used to get status of the vpn (ex: hotspotshield disconnect)</label>
+        </entry>
+    </group>
+</kcfg>
