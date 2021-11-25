@@ -16,8 +16,24 @@ KDE Plasma is required to run this program
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+1. Clone the repository
+
+```bash
+# using gh cli
+gh repo clone Darkfull-Dante/vpn-toggle
+
+# using https
+git clone https://github.com/Darkfull-Dante/vpn-toggle.git
+```
+
+2. Copy the plasmoid folder in the correct .local folder
+
+```bash
+cd vpn-toggle
+cp -r com.darkfulldante.plasma.vpn-toggle .local/share/plasma/plasmoids/
+```
+
+3. add the widget from kde menu
 
 ### Executing program
 
