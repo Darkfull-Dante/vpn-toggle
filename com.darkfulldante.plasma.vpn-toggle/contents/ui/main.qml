@@ -46,7 +46,7 @@ Item {
         ColorOverlay {
             anchors.fill: vpnIcon
             source: vpnIcon
-            color: dataModel.status.connected ? theme.positiveColor : theme.textColor
+            color: dataModel.status.connected ? theme.positiveTextColor : theme.textColor
         }
         
        
